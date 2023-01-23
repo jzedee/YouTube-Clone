@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com clone</title>
+    <link rel="stylesheet" href="styles/ytVideo.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/ytheader.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</Head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu icon">
+            <a href="https://www.youtube.com/">
+
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="yt icon">
+            </a>
+        </div>
+        <div class="mid-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg " alt="Search ">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="Voice search">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <!-- <button class="upload-button"> -->
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <!-- </button> -->
+            <!-- <button class="apps-button"> -->
+            <div class="apps-icon-container">
+                <img class="apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <!-- </button> -->
+            <!-- <button class="notification-button"> -->
+            <div class="notification-icon-container">
+                <img class="notification-icon" src="icons/notifications.svg">
+                <div class="notification-count">3</div>
+
+                <div class="tooltip">Notifications</div>
+            </div>
+            <!-- </button> -->
+            <img class="current-user-picture" src="profile/ytprofile.jpg">
+        </div>
+    </header>
+    <nav class="sidebar">
+        <a class="sidebar-txt-link" href="https://www.youtube.com/">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div class="sidebar-txt">Home</div>
+            </div>
+        </a>
+        <a class="sidebar-txt-link" href="https://www.youtube.com/feed/explore">
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div class="sidebar-txt">Explore</div>
+            </div>
+        </a>
+        <a class="sidebar-txt-link" href="https://www.youtube.com/feed/subscription">
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div class="sidebar-txt">Subscription</div>
+            </div>
+        </a>
+        <a class="sidebar-txt-link" href="https://www.youtube.com/channel/UCqVDpXKLmKeBU_yyt_QkItQ">
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div class="sidebar-txt">Originals</div>
+
+            </div>
+        </a>
+        <a class="sidebar-txt-link" href="https://music.youtube.com/">
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div class="sidebar-txt">YouTube Music</div>
+
+            </div>
+        </a>
+        <a class="sidebar-txt-link" href="https://www.youtube.com/feed/library">
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+
+                <div class="sidebar-txt">Library</div>
+            </div>
+        </a>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=05v-7xJktuos">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/hq720.webp">
+                        <div class="video-time">2:03</div>
+                    </div>
+                </a>
+                <div class="thumb-down-info">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@jze_dee">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/jzedee_profile.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=05v-7xJktuo">
+                            <div class="video-title-div">
+                                <p class="video-title">JzeDee - KGF Reloaded ( Official Audio )</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@jze_dee">
+                            <div class="channel-name">
+                                <p class="video-author">JzeDee &#9834; </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">899 views &#183; 2 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22063s">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/2.webp">
+                        <div class="video-time">6:31:24</div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@SuperSimpleDev">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/supersimpledev.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22063s">
+                            <div class="video-title-div">
+                                <p class="video-title">HTML & CSS Full Course - Beginner to Pro (2022)</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@SuperSimpleDev">
+                            <div class="channel-name">
+                                <p class="video-author">SuperSimpleDev </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">2.9M views &#183; 11 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=mcfEqcmx5sQ&t=1s">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/hq720 (1).webp">
+                        <div class="video-time">17:06</div>
+                    </div>
+                </a>
+                <div class="thumb-down-info">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@sonypal">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/sony pal.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=mcfEqcmx5sQ&t=1s">
+                            <div class="video-title-div">
+                                <p class="video-title">
+                                    Taarak Mehta Ka Ooltah Chashmah | तारक मेहता का उल्टा चश्मा | Episode 586
+
+                                </p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@sonypal">
+                            <div class="channel-name">
+                                <p class="video-author">Sony PAL </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">8.3M views &#183; 1 year ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/IBbbQhcb3GY">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/hq720 (2).webp">
+                        <div class="video-time">5:00</div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@joinFAUN">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/faun.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://youtu.be/IBbbQhcb3GY">
+
+                            <div class="video-title-div">
+                                <p class="video-title">Becoming a Python Developer in 15 Days</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@joinFAUN">
+                            <div class="channel-name">
+                                <p class="video-author">FAUN - Developer Community </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">234 views &#183; 8 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/_egONPXLCxg">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/hq720 (4).webp">
+                        <div class="video-time">7:04</div>
+                    </div>
+                </a>
+                <div class="thumb-down-info">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@TechnicalGuruji">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/technicalguruji.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://youtu.be/_egONPXLCxg">
+
+                            <div class="video-title-div">
+                                <p class="video-title">Online OTP SCAM Exposed🔥🔥🔥</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@TechnicalGuruji">
+                            <div class="channel-name">
+                                <p class="video-author"> Technical Guruji </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">231K views &#183; 6 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://youtu.be/NdY8EXxzef4">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/hq720 (5).webp">
+                        <div class="video-time">34:18 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@Anwar">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/anwar.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://youtu.be/NdY8EXxzef4">
+                            <div class="video-title-div">
+                                <p class="video-title"> BRO CODE SERIES (Pt 1, 2, 3, & 4) | Anwar Jibawi</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@Anwar">
+                            <div class="channel-name">
+                                <p class="video-author">Anwar Jibawi </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">434K views &#183; 9 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=mpUk7SVOPG0&t=0s">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/ratantata.webp">
+                        <div class="video-time">4:10 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@natgeoindia">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/netgeo.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=mpUk7SVOPG0&t=0s">
+                            <div class="video-title-div">
+                                <p class="video-title">Ratan Tata - The Mega Icons | National Geographic India</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@natgeoindia">
+                            <div class="channel-name">
+                                <p class="video-author">National Geographic India</p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">444K views &#183; 2 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=lc4CMgLj75E">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/mukeshambani.webp">
+                        <div class="video-time">18:39 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@KRe8">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/kre8.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=lc4CMgLj75E">
+                            <div class="video-title-div">
+                                <p class="video-title"> The Most Powerful Family in India | Rise of The Ambani's | Full
+                                    Documentary</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@KRe8">
+                            <div class="channel-name">
+                                <p class="video-author">KRe8 Media </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">108K views &#183; 2 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=DrKLYvLPidw">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/closer.webp">
+                        <div class="video-time">4:26 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@Khanvict">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/khanvict.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=DrKLYvLPidw">
+                            <div class="video-title-div">
+                                <p class="video-title"> Khanvict - Closer</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@Khanvict">
+                            <div class="channel-name">
+                                <p class="video-author">Khanvict &#9834;</p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">4.3M views &#183; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=Cl618XVFKmc">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/lisl.webp">
+                        <div class="video-time">8:52 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@swatisachdeva95">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/lisl.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=Cl618XVFKmc">
+                            <div class="video-title-div">
+                                <p class="video-title"> Love is Love | Stand-up comedy by Swati Sachdeva</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@swatisachdeva95">
+                            <div class="channel-name">
+                                <p class="video-author">Swati Sachdeva </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">16M views &#183; 7 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=Q3oItpVa9fs">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/cymatics.webp">
+                        <div class="video-time">5:52 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@NigelJohnStanford">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/cymatics.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=Q3oItpVa9fs">
+                            <div class="video-title-div">
+                                <p class="video-title">CYMATICS: Science Vs. Music - Nigel Stanford </p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@NigelJohnStanford">
+                            <div class="channel-name">
+                                <p class="video-author">Nigel John Stanford &#9834;</p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">44M views &#183; 8 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=eHyl9KG9RWA">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/divine.webp">
+                        <div class="video-time">4:46 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@viviandivine">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/divine.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=eHyl9KG9RWA">
+                            <div class="video-title-div">
+                                <p class="video-title"> DIVINE - 3:59 AM | Prod. by Stunnah Beatz | Official Music Video
+                                </p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@viviandivine">
+                            <div class="channel-name">
+                                <p class="video-author">DIVINE &#9834;</p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">187M views &#183; 2 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=QyFybZQ8NeI">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/mario.webp">
+                        <div class="video-time">2:23 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@Dolby">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/mario.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=QyFybZQ8NeI">
+                            <div class="video-title-div">
+                                <p class="video-title"> The Super Mario Bros. Movie | Official Trailer | Discover it in
+                                    Dolby Cinema</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@Dolby">
+                            <div class="channel-name">
+                                <p class="video-author">Dolby </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">230K views &#183; 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=YR12Z8f1Dh8">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/kolavery.webp">
+                        <div class="video-time">4:08 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@SonyMusicIndia">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/kolaveri.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=YR12Z8f1Dh8">
+                            <div class="video-title-div">
+                                <p class="video-title"> 3 - Why This Kolaveri Di Official Video | Dhanush, Anirudh</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@SonyMusicIndia">
+                            <div class="channel-name">
+                                <p class="video-author">Sony Music India </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">368M views &#183; 11 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=lu-mb0g-Na4">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/shark.webp">
+                        <div class="video-time">13:26 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@SETIndia">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/setin.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="hhttps://www.youtube.com/watch?v=lu-mb0g-Na4">
+                            <div class="video-title-div">
+                                <p class="video-title"> Ashneer को आया 400 करोड़ की माँग पर ग़ुस्सा | Shark Tank India |
+                                    Top 5 Countdown - Biggest Arguments</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@SETIndia">
+                            <div class="channel-name">
+                                <p class="video-author">SET India</p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">2M views &#183; 10 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <a href="https://www.youtube.com/watch?v=0AyGdBtMiFQ">
+                    <div class="thumb-img">
+                        <img class="thumbnail" src="thumbnails/16.webp">
+                        <div class="video-time">17:13 </div>
+                    </div>
+                </a>
+                <div class="thumb-down-info ">
+                    <!-- <div class="profile-space"> -->
+                    <a href="https://www.youtube.com/@NetflixIndiaOfficial">
+                        <div class="user-profile">
+                            <img class="user-profile-pic" src="profile/netflix.jpg">
+                        </div>
+                    </a>
+                    <!-- </div> -->
+                    <div class="in-thumb-down-info">
+                        <a class="video-title-link" href="https://www.youtube.com/watch?v=0AyGdBtMiFQ">
+                            <div class="video-title-div">
+                                <p class="video-title"> Sidharth Malhotra and <a
+                                        style="color: rgb(98, 98, 227); text-decoration: none;"
+                                        href="https://www.youtube.com/channel/UCkS7Vxu4PjM99w0Is6idjcg">@ZakirKhan</a>
+                                    Discuss SRK, Spies & More | Mission Majnu</p>
+                            </div>
+                        </a>
+                        <a class="channel-name-link" href="https://www.youtube.com/@NetflixIndiaOfficial">
+                            <div class="channel-name">
+                                <p class="video-author">Netflix India </p>
+                            </div>
+                        </a>
+                        <div class="video-stats">
+                            <p class="video-stats">752K views &#183; 2 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
